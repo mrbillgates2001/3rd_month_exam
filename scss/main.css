@@ -163,6 +163,9 @@ html {
 .dark #moon {
   fill: white;
 }
+.dark .search-input input {
+  color: #1C3554 !important;
+}
 
 header {
   padding: 36px 0;
