@@ -149,6 +149,14 @@ html {
 .dark header .logo svg {
   fill: white !important;
 }
+.dark header input {
+  background-color: #354d6a;
+}
+.dark header #burger-menu span,
+.dark header #burger-menu span:before,
+.dark header #burger-menu span:after {
+  background-color: white !important;
+}
 .dark #moon {
   fill: white;
 }
@@ -1752,6 +1760,17 @@ html {
 }
 .dark header input {
   background-color: #354d6a;
+}
+.dark header #burger-menu span,
+.dark header #burger-menu span:before,
+.dark header #burger-menu span:after {
+  background-color: white !important;
+}
+.dark .all-courses-heading button:first-child {
+  color: #F72585 !important;
+}
+.dark .all-courses-content .sidenav button svg {
+  fill: white !important;
 }
 .dark #moon {
   fill: white;

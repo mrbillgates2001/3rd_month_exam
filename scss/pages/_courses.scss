@@ -164,8 +164,25 @@ html{
     input {
         background-color: #354d6a;
     }
+    #burger-menu span,
+    #burger-menu span:before,
+    #burger-menu span:after{
+      background-color: white !important;
+      }
   }
-
+  .all-courses-heading {
+    button:first-child {
+        color: #F72585 !important;
+    }
+    
+  }
+  .all-courses-content {
+    .sidenav {
+        button svg {
+            fill: white !important;
+        }
+    }
+  }
    #moon {
     fill: white;
    }
