@@ -649,7 +649,7 @@ header .select-items div:hover, header .same-as-selected {
     margin: 0 auto 58px auto;
   }
   .hero .hero-content .search-input input {
-    width: 175px;
+    width: 155px;
   }
 }
 @media only screen and (max-width: 564px) {
@@ -661,7 +661,8 @@ header .select-items div:hover, header .same-as-selected {
 }
 @media only screen and (max-width: 446px) {
   .search-input {
-    width: auto;
+    width: 350px !important;
+    margin-top: 24px;
   }
   .search-input input {
     width: 150px !important;

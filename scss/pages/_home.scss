@@ -743,12 +743,17 @@ header {
           width: 400px;
           margin: 0 auto 58px auto;
           input {
-            width: 175px;
+            width: 155px;
           }
         }
       }
+      // .h-left {
+      //   p {
+      //     // padding-bottom: 24px;
+      //   }
+      }
     }
-  }
+  // }
 
 @media only screen and (max-width: 564px) {
     .h-heading {
@@ -760,7 +765,8 @@ header {
   
 @media only screen and (max-width: 446px) {
   .search-input {
-    width: auto;
+    width: 350px !important;
+    margin-top: 24px;
     input {
       width: 150px !important;
     }
